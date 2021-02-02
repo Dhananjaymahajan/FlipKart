@@ -1,0 +1,457 @@
+!SESSION 2020-11-26 10:52:09.122 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-11-26 10:52:18.866
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-26 10:52:18.866
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6879e983,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@196d684b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-11-26 10:52:34.592
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dhananjay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-11-28 11:00:27.019 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-11-28 11:00:39.719
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-11-28 11:00:39.719
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@41404aa2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b267745,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-11-28 11:00:49.446
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dhananjay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-12-05 20:19:53.301 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-12-05 20:19:58.408
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-05 20:19:58.408
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@42238078,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5627b8eb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-05 20:20:10.940
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dhananjay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-12-07 14:57:18.169 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-12-07 14:57:22.121
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-07 14:57:22.121
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@49fe0bcd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3516b881,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-07 14:57:32.513
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dhananjay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-12-13 01:25:09.282 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-12-13 01:25:15.311
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-12-13 01:25:15.312
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@10cb050,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@799fb45e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-12-13 01:25:30.346
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dhananjay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-02-02 23:17:34.990 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=14.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-02-02 23:17:41.688
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-02 23:17:41.688
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@684b26b7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2de7c84a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-02 23:17:57.793
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dhananjay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2021-02-02 23:25:24.456
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2021-02-02 23:25:24.456
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2021-02-02 23:25:24.456
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2021-02-02 23:25:24.456
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE Software being installed: Git integration for Eclipse 5.10.0.202012080955-r (org.eclipse.egit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE Software currently installed: Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.group 5.9.0.202009080501-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.456
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE Java implementation of Git 5.10.0.202012080955-r (org.eclipse.jgit.feature.jar 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.jar 5.9.0.202009080501-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.456
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE From: Git integration for Eclipse 5.10.0.202012080955-r (org.eclipse.egit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.group [5.10.0,5.11.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.456
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE From: Java implementation of Git 5.10.0.202012080955-r (org.eclipse.jgit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.10.0.202012080955-r,5.10.0.202012080955-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.456
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE From: Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.group 5.9.0.202009080501-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.456
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.9.0.202009080501-r,5.9.0.202009080501-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2021-02-02 23:25:24.468
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2021-02-02 23:25:24.468
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2021-02-02 23:25:24.468
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2021-02-02 23:25:24.468
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE Software being installed: Git integration for Eclipse 5.10.0.202012080955-r (org.eclipse.egit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE Software currently installed: Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.group 5.9.0.202009080501-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.468
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE Java implementation of Git 5.10.0.202012080955-r (org.eclipse.jgit.feature.jar 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.jar 5.9.0.202009080501-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.468
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE From: Git integration for Eclipse 5.10.0.202012080955-r (org.eclipse.egit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.group [5.10.0,5.11.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.468
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE From: Java implementation of Git 5.10.0.202012080955-r (org.eclipse.jgit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.10.0.202012080955-r,5.10.0.202012080955-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.468
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE From: Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.group 5.9.0.202009080501-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.468
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.9.0.202009080501-r,5.9.0.202009080501-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2021-02-02 23:25:24.482
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2021-02-02 23:25:24.482
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2021-02-02 23:25:24.482
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2021-02-02 23:25:24.482
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE Software being installed: Git integration for Eclipse 5.10.0.202012080955-r (org.eclipse.egit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE Software currently installed: Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.group 5.9.0.202009080501-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.482
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE Java implementation of Git 5.10.0.202012080955-r (org.eclipse.jgit.feature.jar 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.jar 5.9.0.202009080501-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.482
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE From: Git integration for Eclipse 5.10.0.202012080955-r (org.eclipse.egit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.group [5.10.0,5.11.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.482
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE From: Java implementation of Git 5.10.0.202012080955-r (org.eclipse.jgit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.10.0.202012080955-r,5.10.0.202012080955-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.482
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE From: Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.group 5.9.0.202009080501-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.482
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.9.0.202009080501-r,5.9.0.202009080501-r]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2021-02-02 23:25:24.484
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2021-02-02 23:25:24.484
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2021-02-02 23:25:24.484
+!MESSAGE "Git integration for Eclipse" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2021-02-02 23:25:24.484
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE Software being installed: Git integration for Eclipse 5.10.0.202012080955-r (org.eclipse.egit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE Software currently installed: Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.group 5.9.0.202009080501-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.484
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE Java implementation of Git 5.10.0.202012080955-r (org.eclipse.jgit.feature.jar 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.jar 5.9.0.202009080501-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.484
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE From: Git integration for Eclipse 5.10.0.202012080955-r (org.eclipse.egit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.group [5.10.0,5.11.0)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.484
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE From: Java implementation of Git 5.10.0.202012080955-r (org.eclipse.jgit.feature.group 5.10.0.202012080955-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.10.0.202012080955-r,5.10.0.202012080955-r]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2021-02-02 23:25:24.484
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE From: Java implementation of Git 5.9.0.202009080501-r (org.eclipse.jgit.feature.group 5.9.0.202009080501-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2021-02-02 23:25:24.484
+!MESSAGE To: org.eclipse.equinox.p2.iu; org.eclipse.jgit.feature.jar [5.9.0.202009080501-r,5.9.0.202009080501-r]
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 4 0 2021-02-02 23:38:42.815
+!MESSAGE Error processing mirrors URL: http://www.eclipse.org/downloads/download.php?format=xml&file=/releases/2020-12/202012161000&countryCode=in&timeZone=5&format=xml
+!STACK 0
+java.io.FileNotFoundException: http://www.eclipse.org/downloads/download.php?format=xml&file=/releases/2020-12/202012161000&countryCode=in&timeZone=5&format=xml
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryStatusHelper.checkFileNotFound(RepositoryStatusHelper.java:298)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.checkException(FileReader.java:509)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.sendRetrieveRequest(FileReader.java:463)
+	at org.eclipse.equinox.internal.p2.transport.ecf.FileReader.read(FileReader.java:292)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.stream(RepositoryTransport.java:186)
+	at org.eclipse.oomph.p2.internal.core.CachingTransport.stream(CachingTransport.java:262)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.getMirrorsDocument(MirrorSelector.java:294)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.computeMirrors(MirrorSelector.java:259)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.initMirrors(MirrorSelector.java:349)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.selectMirror(MirrorSelector.java:417)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorSelector.getMirrorLocation(MirrorSelector.java:327)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getMirror(SimpleArtifactRepository.java:746)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.downloadArtifact(SimpleArtifactRepository.java:643)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:776)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.getArtifact(MirrorRequest.java:319)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transferSingle(MirrorRequest.java:289)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.transfer(MirrorRequest.java:225)
+	at org.eclipse.equinox.internal.p2.artifact.repository.MirrorRequest.perform(MirrorRequest.java:155)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.SimpleArtifactRepository.getArtifact(SimpleArtifactRepository.java:759)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.DownloadJob.run(DownloadJob.java:64)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2021-02-02 23:41:22.961
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\DHANAN~1\AppData\Local\Temp\C__Users_Dhananjay_eclipse_java-2020-09_eclipse_2eec7e223080_c0a80103efcd
+!SESSION 2021-02-02 23:47:18.563 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/C:/Users/Dhananjay/eclipse-workspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-02-02 23:51:01.425
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-02 23:51:01.425
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@72ce8a9b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47c15468,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-02 23:51:21.533
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dhananjay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-02-03 00:22:18.502 -----------------------------------------------
+eclipse.buildId=4.18.0.I20201202-1800
+java.version=15.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data file:/C:/Users/Dhananjay/eclipse-workspace/ -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2021-02-03 00:22:23.614
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-02-03 00:22:23.614
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@45d38165,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1f3f434,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-02-03 00:22:32.451
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dhananjay'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
