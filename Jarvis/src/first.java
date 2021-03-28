@@ -1,9 +1,19 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+
+
 public class first {
 
 	public static void main(String args[]) {
 		System.out.println(StringRev("Dhananjay"));
 		System.out.println(CheckSum("3222"));
 		SentenceRev();
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\Dhananjay\\Downloads\\Geco\\geckodriver.exe");
+		WebDriver obj = new FirefoxDriver();
+		
+		obj.get("www.google.com/");
+		
 	}
 
 	public static String StringRev(String input) {
