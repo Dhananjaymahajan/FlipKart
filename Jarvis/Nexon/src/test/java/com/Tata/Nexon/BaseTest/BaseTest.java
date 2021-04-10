@@ -18,7 +18,6 @@ import com.aventstack.extentreports.MediaEntityBuilder;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 
 
-
 public class BaseTest {
 	public static WebDriver obj;
 public static ExtentTest testname;
