@@ -1,6 +1,8 @@
 package com.Tata.Nexon.suites;
 
+import com.Tata.Nexon.BaseTest.BaseTest;
 import com.Tata.Nexon.pages.FlipKartLoginPage;
+import com.Tata.Nexon.pages.FlipkarElectronicsPage;
 import com.Tata.Nexon.utilityClasses.GenericFunctions;
 import com.github.jsdevel.testng.selenium.AbstractSuite;
 import com.github.jsdevel.testng.selenium.annotations.driverconfig.UserAgent;
@@ -22,35 +24,23 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class SampleSuiteITest {
-	
-
-	 WebDriver obj;
-
-	@BeforeTest
-	public void LaunchBrowser() throws IOException {
-		System.out.println(GenericFunctions.GetCurrentMethodName() + "has invoked");
-		System.setProperty(GenericFunctions.ReadProperty("driverName"),GenericFunctions.ReadProperty("driverPath"));
-		obj = new FirefoxDriver();
-		obj.manage().window().maximize();
-		String LoginUrl = GenericFunctions.ReadProperty("url");
-		obj.get(LoginUrl);
-
-	}
-	@AfterTest
-	public void TestClose()
-	{
-		System.out.println("Test Closed");
-		obj.quit();
-	}
+public class SampleSuiteITest extends BaseTest {
 
 	@Test
-	@LargeDesktop
-	@UserAgent("foo")
-	public void LogintoFlipKart() {
-		FlipKartLoginPage LoginPage = PageFactory.initElements(obj, FlipKartLoginPage.class);
-		LoginPage.LoginFlipkart("dhananjay12@gmail.com", "Password");
+	public void LogintoFlipKart() throws InterruptedException {
+		Report.createTest("This is 1st Test");
+		FlipKartLoginPage LoginPage = new FlipKartLoginPage(obj);
+		LoginPage.clickLoginCloseButton();
+		FlipkarElectronicsPage ElectronicsPage = new FlipkarElectronicsPage(obj);
+		ElectronicsPage.selectLaptopAccProcessor(obj);
+		ElectronicsPage.getProductList(obj);
 
+	}
+	@Test
+	public void Check2ndRun()
+	{
+		Report.createTest("This is 2nd Test");
+		System.out.println("This is to check for 2nd Method");
 	}
 
 }

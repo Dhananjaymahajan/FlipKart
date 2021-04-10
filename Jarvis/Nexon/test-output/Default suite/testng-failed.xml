@@ -5,9 +5,10 @@
     <classes>
       <class name="com.Tata.Nexon.suites.SampleSuiteITest">
         <methods>
-          <include name="LaunchBrowser"/>
           <include name="LogintoFlipKart"/>
-          <include name="TestClose"/>
+          <include name="ReportStart"/>
+          <include name="LaunchBrowser"/>
+          <include name="getResult"/>
         </methods>
       </class> <!-- com.Tata.Nexon.suites.SampleSuiteITest -->
     </classes>

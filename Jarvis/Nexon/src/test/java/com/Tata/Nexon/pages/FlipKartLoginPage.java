@@ -3,15 +3,15 @@ package com.Tata.Nexon.pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
 
 
 public class FlipKartLoginPage {
 
-	WebDriver obj;
+	
 	
 	public FlipKartLoginPage(WebDriver obj) {
-		
-		this.obj = obj;
+		PageFactory.initElements(obj, this);
 	}
 	
 	@FindBy(xpath="//input[@class='_2IX_2- VJZDxU']")
@@ -30,7 +30,9 @@ public class FlipKartLoginPage {
 		loginBtn.click();
 	}
 	public void clickLoginCloseButton() {
+		closeBtn.isDisplayed();
 		closeBtn.click();
+		
 	}
 	
 }

@@ -22,6 +22,7 @@ System.out.println("Child m3 Method");
 
 class A {
 public static void main(String[] args) {
+	System.out.println(System.getProperty("user.dir"));
 Parent p = new Child();
 
 p.m1(); // Output 1

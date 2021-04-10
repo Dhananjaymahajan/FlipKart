@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-04-06T14:02:44Z" name="Default suite" finished-at="2021-04-06T14:02:44Z" duration-ms="41">
+    <groups>
+      <group name="Nexon">
+        <method signature="Testin.T1()[pri:0, instance:Testin@31f9b85e]" name="T1" class="Testin"/>
+      </group> <!-- Nexon -->
+      <group name="Tata">
+        <method signature="Testin.T12()[pri:0, instance:Testin@31f9b85e]" name="T12" class="Testin"/>
+      </group> <!-- Tata -->
+    </groups>
+    <test started-at="2021-04-06T14:02:44Z" name="Default test" finished-at="2021-04-06T14:02:44Z" duration-ms="41">
+      <class name="Testin">
+        <test-method is-config="true" signature="T6()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T6" finished-at="2021-04-06T14:02:44Z" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T6 -->
+        <test-method is-config="true" signature="T2()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T2" finished-at="2021-04-06T14:02:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T2 -->
+        <test-method is-config="true" signature="T7()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T7" finished-at="2021-04-06T14:02:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T7 -->
+        <test-method is-config="true" signature="T3()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T3" finished-at="2021-04-06T14:02:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T3 -->
+        <test-method signature="T1()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T1" finished-at="2021-04-06T14:02:44Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T1 -->
+        <test-method is-config="true" signature="T4()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T4" finished-at="2021-04-06T14:02:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T4 -->
+        <test-method signature="T12()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T12" finished-at="2021-04-06T14:02:44Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T12 -->
+        <test-method is-config="true" signature="T3()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T3" finished-at="2021-04-06T14:02:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T3 -->
+        <test-method is-config="true" signature="T4()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T4" finished-at="2021-04-06T14:02:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T4 -->
+        <test-method is-config="true" signature="T8()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T8" finished-at="2021-04-06T14:02:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T8 -->
+        <test-method is-config="true" signature="T11()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T11" finished-at="2021-04-06T14:02:44Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T11 -->
+        <test-method is-config="true" signature="T5()[pri:0, instance:Testin@31f9b85e]" started-at="2021-04-06T14:02:44Z" name="T5" finished-at="2021-04-06T14:02:44Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- T5 -->
+      </class> <!-- Testin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

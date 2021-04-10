@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\Dhananjay\AppData\Local\Temp\testng-eclipse--1554922588\testng-customsuite.xml</span>
+                    <span>C:\Users\Dhananjay\AppData\Local\Temp\testng-eclipse-880924198\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,6 +102,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="com.Tata.Nexon.suites.SampleSuiteITest" class="method navigator-link" hash-for-method="Check2ndRun">Check2ndRun</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Default_suite" title="com.Tata.Nexon.suites.SampleSuiteITest" class="method navigator-link" hash-for-method="LogintoFlipKart">LogintoFlipKart</a> <!-- method navigator-link -->
@@ -127,6 +132,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="Check2ndRun">
+                  </a> <!-- Check2ndRun -->
+                  <span class="method-name">Check2ndRun</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="LogintoFlipKart">
                   </a> <!-- LogintoFlipKart -->
                   <span class="method-name">LogintoFlipKart</span>
@@ -137,7 +149,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Dhananjay\AppData\Local\Temp\testng-eclipse--1554922588\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Dhananjay\AppData\Local\Temp\testng-eclipse-880924198\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -186,16 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LogintoFlipKart')
 data.setCell(0, 2, 'com.Tata.Nexon.suites.SampleSuiteITest')
-data.setCell(0, 3, 846);
+data.setCell(0, 3, 2515);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Check2ndRun')
+data.setCell(1, 2, 'com.Tata.Nexon.suites.SampleSuiteITest')
+data.setCell(1, 3, 8);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 846 ms</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -222,17 +238,41 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.Tata.Nexon.suites.SampleSuiteITest</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
+              <div class="configuration-method before">
                 <span class="method-name">LaunchBrowser</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">ReportStart</span>
+                <span class="method-start">9111 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Check2ndRun</span>
+                <span class="method-start">9431 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=Check2ndRun status=SUCCESS method=SampleSuiteITest.Check2ndRun()[pri:0, instance:co...)</span>
+                <span class="method-start">9442 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">LaunchBrowser</span>
+                <span class="method-start">14078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">ReportStart</span>
+                <span class="method-start">22540 ms</span>
+              </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LogintoFlipKart</span>
-                <span class="method-start">11698 ms</span>
+                <span class="method-start">22543 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=LogintoFlipKart status=SUCCESS method=SampleSuiteITest.LogintoFlipKart()[pri:0, ins...)</span>
+                <span class="method-start">25061 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
-                <span class="method-name">TestClose</span>
-                <span class="method-start">12556 ms</span>
+                <span class="method-name">OpenReport</span>
+                <span class="method-start">29106 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

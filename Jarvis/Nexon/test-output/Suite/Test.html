@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Mar 29 00:36:58 IST 2021</td>
+<td>Started on:</td><td>Sat Apr 10 16:24:43 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11143 ms)</td>
+<tr><td>Total time:</td><td>8 seconds (8872 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -68,32 +68,36 @@ function toggleAllBoxes() {
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
 <table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.Tata.Nexon.suites.SampleSuiteITest.LogintoFlipKart()'><b>LogintoFlipKart</b><br>Test class: com.Tata.Nexon.suites.SampleSuiteITest</td>
-<td><div><pre>java.lang.Error: Unresolved compilation problem: 
-	Unhandled exception type InterruptedException
-
-	at com.Tata.Nexon.suites.SampleSuiteITest.LogintoFlipKart(SampleSuiteITest.java:52)
+<td title='com.Tata.Nexon.suites.SampleSuiteITest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: com.Tata.Nexon.suites.SampleSuiteITest</td>
+<td><div><pre>java.lang.NullPointerException: key can&apos;t be null
+	at java.base/java.lang.System.checkKey(System.java:960)
+	at java.base/java.lang.System.setProperty(System.java:908)
+	at com.Tata.Nexon.BaseTest.BaseTest.LaunchBrowser(BaseTest.java:33)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1825531192", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1825531192'><pre>java.lang.Error: Unresolved compilation problem: 
-	Unhandled exception type InterruptedException
-
-	at com.Tata.Nexon.suites.SampleSuiteITest.LogintoFlipKart(SampleSuiteITest.java:52)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1970440477", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1970440477'><pre>java.lang.NullPointerException: key can&apos;t be null
+	at java.base/java.lang.System.checkKey(System.java:960)
+	at java.base/java.lang.System.setProperty(System.java:908)
+	at com.Tata.Nexon.BaseTest.BaseTest.LaunchBrowser(BaseTest.java:33)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
@@ -105,7 +109,115 @@ function toggleAllBoxes() {
 	at java.base/java.lang.Thread.run(Thread.java:832)
 </pre></div></td>
 <td>0</td>
-<td>com.Tata.Nexon.suites.SampleSuiteITest@32b260fa</td></tr>
+<td>com.Tata.Nexon.suites.SampleSuiteITest@25084a1e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Tata.Nexon.suites.SampleSuiteITest.ReportEnd()'><b>ReportEnd</b><br>Test class: com.Tata.Nexon.suites.SampleSuiteITest</td>
+<td></td>
+<td>-1618052092</td>
+<td>com.Tata.Nexon.suites.SampleSuiteITest@25084a1e</td></tr>
+<tr>
+<td title='com.Tata.Nexon.suites.SampleSuiteITest.ReportEnd()'><b>ReportEnd</b><br>Test class: com.Tata.Nexon.suites.SampleSuiteITest</td>
+<td></td>
+<td>-1618052083</td>
+<td>com.Tata.Nexon.suites.SampleSuiteITest@25084a1e</td></tr>
+<tr>
+<td title='com.Tata.Nexon.suites.SampleSuiteITest.getResult()'><b>getResult</b><br>Test class: com.Tata.Nexon.suites.SampleSuiteITest</td>
+<td></td>
+<td>-1618052083</td>
+<td>com.Tata.Nexon.suites.SampleSuiteITest@25084a1e</td></tr>
+<tr>
+<td title='com.Tata.Nexon.suites.SampleSuiteITest.getResult()'><b>getResult</b><br>Test class: com.Tata.Nexon.suites.SampleSuiteITest</td>
+<td></td>
+<td>-1618052092</td>
+<td>com.Tata.Nexon.suites.SampleSuiteITest@25084a1e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Tata.Nexon.suites.SampleSuiteITest.Check2ndRun()'><b>Check2ndRun</b><br>Test class: com.Tata.Nexon.suites.SampleSuiteITest</td>
+<td><div><pre>java.lang.NullPointerException: key can&apos;t be null
+	at java.base/java.lang.System.checkKey(System.java:960)
+	at java.base/java.lang.System.setProperty(System.java:908)
+	at com.Tata.Nexon.BaseTest.BaseTest.LaunchBrowser(BaseTest.java:33)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1491279107", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1491279107'><pre>java.lang.NullPointerException: key can&apos;t be null
+	at java.base/java.lang.System.checkKey(System.java:960)
+	at java.base/java.lang.System.setProperty(System.java:908)
+	at com.Tata.Nexon.BaseTest.BaseTest.LaunchBrowser(BaseTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.Tata.Nexon.suites.SampleSuiteITest@25084a1e</td></tr>
+<tr>
+<td title='com.Tata.Nexon.suites.SampleSuiteITest.LogintoFlipKart()'><b>LogintoFlipKart</b><br>Test class: com.Tata.Nexon.suites.SampleSuiteITest</td>
+<td><div><pre>java.lang.NullPointerException: key can&apos;t be null
+	at java.base/java.lang.System.checkKey(System.java:960)
+	at java.base/java.lang.System.setProperty(System.java:908)
+	at com.Tata.Nexon.BaseTest.BaseTest.LaunchBrowser(BaseTest.java:33)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+... Removed 16 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1002391825", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1002391825'><pre>java.lang.NullPointerException: key can&apos;t be null
+	at java.base/java.lang.System.checkKey(System.java:960)
+	at java.base/java.lang.System.setProperty(System.java:908)
+	at com.Tata.Nexon.BaseTest.BaseTest.LaunchBrowser(BaseTest.java:33)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+</pre></div></td>
+<td>0</td>
+<td>com.Tata.Nexon.suites.SampleSuiteITest@25084a1e</td></tr>
 </table><p>
 </body>
 </html>
